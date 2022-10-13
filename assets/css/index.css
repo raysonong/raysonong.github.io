@@ -1,0 +1,67 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-bgcolor);
+    padding: 20px 50px;
+}
+
+.header-logo {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    margin-bottom: 0px;
+}
+
+/* Screen width 768px and below */
+@media screen and (max-width: 768px) {
+    #header {
+        padding: 20px 30px;
+        position: relative;
+    }
+}
+/* End of Screen width 768px and below */
+
+/* Screen width 520px and below */
+@media screen and (max-width: 520px) {
+    #header {
+        padding: 20px;
+    }
+}
+/* End of Screen width 520px and below */
+
+#content {
+    padding: 50px;
+    background-color: white;
+}
+
+#content section {
+    margin-bottom: 48px;
+}
+
+#content section article:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+ul {
+    padding: 16px;
+}
+
+/* Screen width 768px and below */
+@media screen and (max-width: 768px) {
+    #content {
+        padding: 50px 30px;
+    }
+}
+/* End of Screen width 768px and below */
+
+/* Screen width 520px and below */
+@media screen and (max-width: 520px) {
+    #content {
+        padding: 30px 20px;
+    }
+}
+/* End of Screen width 520px and below */
