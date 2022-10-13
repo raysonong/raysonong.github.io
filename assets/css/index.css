@@ -55,6 +55,18 @@ ul {
     #content {
         padding: 50px 30px;
     }
+
+    #content section {
+        margin-bottom: 32px;
+    }
+    
+    #content section article:not(:last-child) {
+        margin-bottom: 8px;
+    }
+    
+    ul {
+        padding: 8px 16px 8px;
+    }
 }
 /* End of Screen width 768px and below */
 
