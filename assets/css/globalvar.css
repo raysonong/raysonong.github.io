@@ -1,0 +1,12 @@
+/* Variables */
+:root {
+  --primary-color: deepskyblue;
+  --complementary-color: darkorange;
+  --primary-color-dark: rgb(0, 111, 150);
+  --complementary-color-dark: rgb(220, 120, 0);
+  --nav-bgcolor: #222;
+  --body-bgcolor: #eee;
+  --footer-bgcolor: #333;
+  --test-color: rgb(30, 25, 50);
+}
+/* End of Variables */
